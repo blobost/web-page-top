@@ -15,6 +15,9 @@ body {
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
+    margin: 70px;
+    margin-top: 16px;
+    margin-bottom: 0px;
     
 }
 
@@ -23,11 +26,13 @@ body {
     justify-content: flex-start;
     font-size: 24;
     color: #f9faf8;
+    font-weight: 700;
 }
 
 .hsub {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .cookie {
@@ -35,14 +40,30 @@ body {
     list-style-type: none;
 }
 
+.linkexc {
+    padding-right: 0px;
+}
+
 .hero {
     background-color: #1f2937;
     display: flex; 
+    margin: 70px;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .hsubtext {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    margin-right: 60px;
+    
+}
+
+.hsubimg {
+    width: auto;
+    height: 218px;
+    border-radius: 8px;
 }
 
 .hline {
@@ -62,4 +83,131 @@ a {
 
 li {
     padding-right: 16px;
+}
+
+.hsubtext .hbut {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+
+.randominfo {
+    font-size: 36px;
+    font-family: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.randombubbles {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgbubble1,
+.imgbubble2,
+.imgbubble3,
+.imgbubble4 {
+    height: 170px;
+    width: 150px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.randombubbles p {
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 150px;
+    text-align: center;
+}
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: 40px;
+    height: auto;
+}
+
+.epicquote {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.textquote {
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+    
+    
+}
+
+.authorquote {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 60px;
+    width: 600px;
+    height: 170px;
+    margin: 80px;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.call {
+    font-weight: 800;
+    flex-shrink: 1;  
+}
+
+.butsign {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e5e7eb;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.copycont {
+    color: #e5e7eb;
+    margin: 18px;
 }
